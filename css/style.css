@@ -1,0 +1,365 @@
+body{
+	background: #f0f0f0;
+	padding: 0px!important;
+}
+.red{
+	color: red;
+}
+#bggreen{
+	background: green;
+}
+.bgapp{background: black}
+.login-app{
+	background: rgba(19, 35, 47, 0.9);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: block;
+}
+.login-cont{
+	background: #f0f0f0;
+	width: 30%;
+	height: 60%;
+	position: absolute;
+	display: block;
+	top: 20%;
+	left: 35%;
+	border-radius: 10px;
+	box-shadow: 20px 0px 5px #000;
+}
+.navbar-nav{
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+.navbar {
+	border-radius: 0px!important;
+	margin-bottom: 0!important;
+}
+.navbar-inverse .navbar-nav a.active, .navbar-inverse .navbar-nav a.active:focus, .navbar-inverse .navbar-nav a.active:hover {
+    color: #fff;
+    background-color: #560a0a!important;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff!important;
+}
+.navbar-inverse {
+    background-color: #7b0909!important;
+    border-color: #a70000!important;
+}
+.navbar-brand{color:#fff!important;}
+.banner img{
+	width: 100%;
+	float: left;
+	padding: 0px!important;
+	margin:0;
+}
+.banner{
+	padding: 0px!important;
+	box-shadow: 0px 60px 30px -52px;
+    margin-top: 50px;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #610707!important;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #500202!important;
+}
+#loginerr{
+	font-size: 12px;
+	float: right;
+	font-weight: normal;
+	padding-top: 10px;
+	color: #FF9800;
+	display: none;
+}
+.apptitle{
+	text-align: center;
+	margin: 40px 0px;
+	margin-bottom:	20px;
+}
+.apptitle h2{
+	    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.apptitle h2::after{
+	content: "";
+	border-bottom:  4px solid #c02c3a;
+	clear: both;
+	width: 100px;
+	display: block;
+	margin: 10px auto;
+}
+.movie-cont{
+	border: 1px solid #ccc;
+	box-shadow: 0px 45px 10px -40px #ccc;
+	margin: .5%;
+    width: 32%;
+    padding: .4%;
+    border-radius: 4px;
+    /* padding-bottom: 1%; */
+    margin-bottom: 1%;
+}
+.footer-cont{
+	margin-top: 20px;
+	background: #222;
+	padding: 20px;
+	text-align: center; 
+	color: #666;
+}
+.poster{
+	position: relative;
+}
+.poster a{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: none;
+	top: 0px;
+	left:0px;
+	background: rgba(0,0,0,.6);
+	z-index: 1;
+}
+.register {
+    width: 30%;
+    border: 2px solid #aaa;
+    text-align: center;
+    padding: 6px 20px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    
+}
+.poster:hover a{
+	display: block;
+}
+.movie-details{
+	margin-top: 5px;
+}
+.movie-title{
+    width: 80%;
+    float: left;
+}
+.movie-title1{
+    width: 60%;
+    float: left;
+}
+.release{
+	width: 40%;
+	float: left;
+    text-align: right;
+    font-weight: 500px;
+}
+.movie-details .movie-title a{
+	color: #555;
+	font-size: 20px;
+	float: left;
+}
+.movie-details .movie-title a:hover{
+	color: #c02c3a;
+	text-decoration: none;
+}
+.movie-lang{
+	color: #555;
+	float: left;
+	width: 100%;
+}
+.movie-tags {
+    width: 100%;
+    clear: both;
+    float: left;
+    display: block;
+    margin-top: 5px;
+}
+span.tags {
+    padding: 2px 5px;
+    color: #999;
+    border: 1px solid #ccc;
+    margin: 2px;
+    border-radius: 15px;
+    display: inline-block;
+    text-transform: lowercase;
+    font-size: 13px;
+    background: #ddd;
+    text-align: center;
+}
+.movie-rating {
+    float: right;
+    width: 20%;
+    display: block;
+    margin-top: 5px;
+}
+.movie-rating1 {
+    float: left;
+    width: 20%;
+    display: block;
+    margin-top: 5px;
+}
+.rating {
+    width: 90px;
+    height: 15px;
+    background: url('../images/star-ratings-sprite.png');
+    background-position-x: 0px;
+    background-repeat: no-repeat;
+    float: left;
+}
+.booknow a{
+    float: left;
+    width: 100%;
+    background: #c02c3a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.booknow a:hover{
+    background: #97222d;
+    text-decoration: none;
+}
+#foot-nav li{
+	display: inline-block;
+    padding: 5px 15px;
+	
+}
+#foot-nav li a{
+	color: #666;
+    text-transform: lowercase;
+}
+#foot-nav li a:hover{
+	color: #888;
+	text-decoration: none;
+}
+.logo{
+	font-family: 'Barrio', cursive;
+	font-size: 28px;
+}
+.logoico{
+	font-size: 22px;
+}
+.appItems {
+    position: absolute;
+    top: 65%;
+    z-index: 9;
+    color: #fff;
+    left: 28%;
+    display: block;
+}
+.itemName {
+    font-size: 24px;
+    font-family: inherit;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.language {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.itemTags .tags {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 4px 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.videoIcon {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+}
+.videoPopBg, .imgPopBg{
+	position: fixed;
+	background: rgba(0,0,0,.5);
+	width: 100%;
+	height:100%;
+	display: none;
+	top:0;
+	left: 0;
+	z-index: 1031;
+	cursor: pointer;
+}
+.videoPopup, .imgPopup{
+    position: fixed;
+/*    width: 56%;
+    height: 87.3%;*/
+    display: none;
+    top: 12%;
+    left: 24.5%;
+    z-index: 1040;
+    border: 3px solid #fff;
+}
+.pageCont{
+	width:88%;
+	margin:0 auto;
+	margin-top: 90px;
+}
+ul.react-tabs__tab-list {
+    list-style: none;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+ul.react-tabs__tab-list li {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+ul.react-tabs__tab-list li[aria-selected="true"] {
+    border-bottom: 3px solid #01c3b8;
+}
+.ratingdata{
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.reviewText{
+  background: #f9f9f9!important;
+    color: #333;
+    font-size: 12px;
+    font-weight: normal;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 40px;
+}
+textarea.reviewText{
+    height: 100px;
+}
+.reviewTitle {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.reviewbtn{
+    padding: 10px;
+    border-radius:5px; 
+}
+.bottomimages{
+    margin-top: 30px;
+}
+.bottomimages .col-md-3 img{
+     height: 120px!important;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #999;
+    width:100%;
+    cursor:pointer;
+}
+.register1 {
+    width: 20%;
+    border: 2px solid #aaa;
+    text-align: center;
+    padding: 6px 20px;
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    border-radius: 5px;
+}
