@@ -117,6 +117,8 @@ class VideoPoup extends Component {
 closeVideo(){
       $('.videoPopup').css('display','none');
       $('.videoPopBg').css('display','none');
+      document.getElementsByTagName('iframe')[0].src=document.getElementsByTagName('iframe')[0].src;
+      console.log("close");
     }
 
 }

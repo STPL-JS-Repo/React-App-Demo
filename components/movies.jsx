@@ -76,7 +76,9 @@ class UpComing extends React.Component {
   closeVideo(){
       $('.videoPopup').css('display','none');
       $('.videoPopBg').css('display','none');
-      this.ReactPlayer.playing =false;
+      //this.ReactPlayer.playing =false;
+      document.getElementsByTagName('iframe')[0].src=document.getElementsByTagName('iframe')[0].src;
+      console.log("close");
     }
   }
 
