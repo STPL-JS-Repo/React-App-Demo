@@ -65,7 +65,7 @@ class UpComing extends React.Component {
        <div className="videoPopup">
          <ReactPlayer url={this.props.componentData.video} playing={false} controls={true} width={800} height={600} />
         </div>
-        <div className="videoPopBg" onClick={this.closeVideo.bind()}></div>
+        <div className="videoPopBg" onClick={this.closeVideo.bind(this)}></div>
       </div>
     );
    }
@@ -73,12 +73,10 @@ class UpComing extends React.Component {
     $('.videoPopup').eq(this.props.rowId).css('display','block');
      $('.videoPopBg').eq(this.props.rowId).css('display','block');
   }
-  closeVideo(){
+  closeVideo(_this){
       $('.videoPopup').css('display','none');
       $('.videoPopBg').css('display','none');
-      //this.ReactPlayer.playing =false;
-      document.getElementsByTagName('iframe')[0].src=document.getElementsByTagName('iframe')[0].src;
-      console.log("close");
+      document.getElementsByTagName('iframe')[this.props.rowId].src=document.getElementsByTagName('iframe')[this.props.rowId].src;
     }
   }
 
